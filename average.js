@@ -9,15 +9,15 @@
     return avg;
   } */
 
-  function average(arr){
-      let total=0;
-      arr.forEach((function (num)  {
-          total += num;          
-      }));
-      let avg= total/arr.length;
-      return avg;
-  }
+function average(arr){
+  let total=0;
+  arr.forEach((function (num)  {
+    total += num;          
+  }));
+  let avg= total/arr.length;
+  return avg;
+}
 
-  console.log(average([2,3,4,5,6,]));
+console.log(average([2,3,4,5,6,]));
   
   
